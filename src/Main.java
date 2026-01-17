@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Hello world!");
         while (true) {
             System.out.println("""
-                    What kind of staff you need today?
+                    What kind of staff do you need today?
                     0) See "Hello world!" and calculate area of a rectangle;
                     1) Option in development;
                     9) Exit;
