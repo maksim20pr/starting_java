@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class n1_sec_to_format {
     public static String sec_solv(String str, int time) {
-        if (time > 4 && time < 21 || time%10 == 0) {
+        if (time > 4 && time < 21 || time % 10 == 0) {
             return str;
-        } else if (time%10 == 1) {
+        } else if (time % 10 == 1) {
             return str+"а";
         } else if (time%10 < 5) {
             return str+"ы";
